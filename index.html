@@ -3,26 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Gran Día | Invitaciones Digitales</title>
-    <style>
-        body { font-family: 'Arial', sans-serif; background-color: #fce4ec; color: #444; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; text-align: center; }
-        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); max-width: 400px; border: 2px solid #f8bbd0; }
-        h1 { color: #d81b60; margin-bottom: 10px; font-size: 2.5em; }
-        p { font-size: 1.1em; line-height: 1.6; }
-        .btn { display: inline-block; margin-top: 20px; padding: 12px 25px; background-color: #d81b60; color: white; text-decoration: none; border-radius: 50px; font-weight: bold; transition: 0.3s; box-shadow: 0 4px 15px rgba(216, 27, 96, 0.3); }
-        .btn:hover { background-color: #ad1457; transform: scale(1.05); }
-        .footer { margin-top: 30px; font-size: 0.8em; color: #888; }
-    </style>
+    <title>Mi Gran Día - Invitaciones Digitales E Interactivas</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <div class="card">
-        <h1>✨ Mi Gran Día ✨</h1>
-        <p>Expertos en invitaciones digitales mágicas.</p>
-        <p>Estamos personalizando nuestro sitio para ti.</p>
-        <a href="https://wa.me/529911000000" class="btn">Solicitar Cotización</a>
-    </div>
-    <div class="footer">
-        &copy; 2026 Mi Gran Día - Tunkás, Yucatán.
-    </div>
+
+    <header class="main-header">
+        <div class="container logo-container">
+            <img src="logo-mi-gran-dia.png" alt="Logo Mi Gran Día Invitaciones Digitales">
+        </div>
+    </header>
+
+    <section class="hero-carousel">
+        <div class="carousel-container">
+            <img src="boda-banner.jpg" alt="Invitación Boda Elegante" class="active">
+            <img src="xv-anos-banner.jpg" alt="Invitación XV Años Divertida">
+            <img src="bautizo-banner.jpg" alt="Invitación Bautizo Minimalista">
+        </div>
+        <div class="hero-text">
+            <h1>La primera impresión de tu Gran Día comienza aquí.</h1>
+            <p>Invitaciones digitales e interactivas que enamoran.</p>
+            <a href="https://wa.me/TU_NUMERO_DE_WHATSAPP?text=Hola,%20quisiera%20cotizar%20una%20invitación" class="btn-primary" target="_blank">¡Cotizar mi invitación!</a>
+        </div>
+    </section>
+
+    <section class="welcome-section container">
+        <div class="welcome-content">
+            <h2>Bienvenidos a Mi Gran Día</h2>
+            <p class="lead">Creamos momentos inolvidables desde el primer "¡Sí!".</p>
+            <p>Nuestra historia comenzó con la pasión por los detalles y la magia de las celebraciones. Entendemos que cada boda, XV años o bautizo es único, un capítulo especial en tu vida. Por eso, nos dedicamos a diseñar invitaciones digitales que no solo informan, sino que cuentan tu historia con elegancia, creatividad y ese toque interactivo que tus invitados amarán.</p>
+        </div>
+    </section>
+
+    <section class="promo-banner container">
+        <div class="promo-content">
+            <span class="promo-tag">¡Oferta Especial!</span>
+            <h2> 🎉 Descuento Especial en Invitaciones de Boda 🎉</h2>
+            <p>¡Obtén un 15% de descuento en tu paquete de invitaciones premium para Boda durante este mes! No dejes pasar esta oportunidad de invitar con estilo colonial.</p>
+            <img src="imagen-promocion.jpg" alt="Promoción Especial Mi Gran Día">
+            <a href="https://wa.me/TU_NUMERO_DE_WHATSAPP?text=Hola,%20vi%20la%20promoción%20de%20Boda" class="btn-promo" target="_blank">Aprovechar Promoción</a>
+        </div>
+    </section>
+    <section class="video-section container">
+        <h2>Descubre la Magia Interactiva</h2>
+        <p>Mira cómo tus invitados vivirán la experiencia de tu invitación.</p>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/TU_ID_DE_VIDEO" title="Video Promocional Mi Gran Día" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="gallery-models container">
+        <h2>Explora Nuestros Estilos</h2>
+        <p>Diseños exclusivos para cada tipo de celebración.</p>
+        <div class="model-grid">
+            
+            <div class="model-card">
+                <img src="boda-modelo.jpg" alt="Modelo Invitación Boda Colonial">
+                <div class="model-info">
+                    <h3>Bodas con Encanto</h3>
+                    <p>Elegancia clásica, toques coloniales y romanticismo puro.</p>
+                    <a href="carpeta-bodas/index.html" class="btn-ver" target="_blank">Ver Ejemplo</a>
+                </div>
+            </div>
+
+            <div class="model-card">
+                <img src="xv-anos-modelo.jpg" alt="Modelo Invitación XV Años Pixar">
+                <div class="model-info">
+                    <h3>XV Años de Ensueño</h3>
+                    <p>Estilos temáticos, modernos, tipo "Pixar" y llenos de diversión.</p>
+                    <a href="carpeta-xv-anos/index.html" class="btn-ver" target="_blank">Ver Ejemplo</a>
+                </div>
+            </div>
+
+            <div class="model-card">
+                <img src="bautizo-modelo.jpg" alt="Modelo Invitación Bautizo Tierno">
+                <div class="model-info">
+                    <h3>Bautizos y Más</h3>
+                    <p>Diseños tiernos, minimalistas y delicados para los más pequeños.</p>
+                    <a href="carpeta-bautizos/index.html" class="btn-ver" target="_blank">Ver Ejemplo</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2024 Mi Gran Día. Todos los derechos reservados.</p>
+            <p>Invitaciones Digitales E Interactivas.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/TU_NUMERO_DE_WHATSAPP?text=Hola,%20quisiera%20cotizar%20una%20invitación" class="whatsapp-btn" target="_blank">
+        <img src="icon-whatsapp.png" alt="Contactar por WhatsApp a Mi Gran Día">
+    </a>
+
+    <script>
+        let images = document.querySelectorAll('.carousel-container img');
+        let current = 0;
+
+        function nextPhoto() {
+            images[current].classList.remove('active');
+            current = (current + 1) % images.length;
+            images[current].classList.add('active');
+        }
+
+        setInterval(nextPhoto, 4000); // Cambia la foto cada 4 segundos
+    </script>
+
 </body>
 </html>
