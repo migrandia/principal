@@ -7,10 +7,9 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body { 
-    font-family: 'Poppins', sans-serif; 
-    background: var(--fondo-wow) !important; 
-    color: var(--primario); 
-    margin: 0;
+    font-family: 'Poppins', sans-serif !important; 
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%) !important; 
+    color: #5d4037 !important; 
 }
 
 .header { text-align: center; padding: 30px; background: white; }
